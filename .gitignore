@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+.DS_Store
+drone_cam_app/build/
+drone_cam_app/.dart_tool/
+drone_cam_app/.flutter-plugins
+drone_cam_app/.flutter-plugins-dependencies
+data_for_keras_aug/
+drone_cam_app/ios/Pods/
+drone_cam_app/.symlinks/
+drone_cam_app/build/
+drone_cam_app/.dart_tool/
+.DS_Store

@@ -1,0 +1,25 @@
+============================================================
+  GF2 DATASET CLEANING REPORT
+============================================================
+  Scan time          : 1.49 minutes
+  Total tiles scanned: 42,212
+  Valid tiles        : 42,167  (99.89%)
+  Rejected tiles     : 45  (0.11%)
+
+  Per-split breakdown:
+    train -> valid=33,735  rejected=35
+    val   -> valid=6,324  rejected=8
+    test  -> valid=2,108  rejected=2
+
+  Rejection reasons:
+    nodata (>50% zeros)                : 37
+    low channel variance               : 8
+
+  Thresholds used:
+    Nodata (zero pixel %)  : > 50%
+    Min channel std        : < 1.0
+
+  Output files:
+    Manifest : /Users/prathmesh/Desktop/CNS_Mode/cleaned_manifest.csv
+    Rejected : /Users/prathmesh/Desktop/CNS_Mode/rejected_tiles.csv
+============================================================
